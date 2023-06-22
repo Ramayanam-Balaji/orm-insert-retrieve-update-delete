@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table border="7px">
+            <tr>
+                <th>AccessRecords</th>
+            </tr>
+
+            {% for ao in AccessRecordss %}
+                <tr>
+                    <td>{{ao.Name}}</td>
+                    <td>{{ao.date}}</td>
+                    <td>{{ao.author}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </center>
+    
+</body>
+</html>
