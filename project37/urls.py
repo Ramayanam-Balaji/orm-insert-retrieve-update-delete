@@ -22,6 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('display_topics/',display_topics,name='display_topics'),
     path('display_Webpages/',display_Webpages,name='display_Webpages'),
-    path('display_AccessRecordss/',display_AccessRecordss,name='display_AccessRecordss')
+    path('display_AccessRecordss/',display_AccessRecordss,name='display_AccessRecordss'),
+    path('update_Webpages/',update_Webpages,name='update_Webpages'),
+    path('delete_Webpages/',delete_Webpages,name='delete_Webpages')
 ]
+
+
 
